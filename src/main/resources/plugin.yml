@@ -1,0 +1,7 @@
+name: NearbyChat
+version: ${project.version}
+main: com.github.eighty88.nearbych.NearbyChat
+api-version: 1.13
+authors: [ eight_y_88 ]
+description: 近くにいないとチャットできない!
+website: https://github.com/Palpunte-Union
