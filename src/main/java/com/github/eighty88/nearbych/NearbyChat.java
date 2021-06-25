@@ -18,7 +18,7 @@ public final class NearbyChat extends JavaPlugin {
                 String msg = e.getMessage();
                 for(Entity entity: e.getPlayer().getWorld().getNearbyEntities(e.getPlayer().getLocation(), 16, 16, 16)) {
                     if(entity instanceof Player) {
-                        entity.sendMessage(msg);
+                        entity.sendMessage("<" + e.getPlayer().getName() + "> " + msg);
                     }
                 }
                 e.setCancelled(true);
